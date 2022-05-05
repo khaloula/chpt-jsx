@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import picProfile from './photo2.avif'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+  <div style={{border:'solid',fontSize:'1px',color:'black',maxWidth:'100vw'}}>
+    <h1 className='titel'>khaloula</h1>
+    <br></br>
+
+<img src='../photo1.avif' alt='pic'/>
+<br></br>
+<img src={picProfile} alt='pic'/>
+</div>
+
     </div>
   );
 }
